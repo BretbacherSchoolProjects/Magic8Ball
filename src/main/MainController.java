@@ -24,9 +24,6 @@ public class MainController implements Initializable {
     @FXML
     private TextArea txta_question;
 
-    @FXML
-    private Button b_confirm;
-
     private Stage stage;
     private MainModel model;
 

@@ -24,10 +24,7 @@ public class LoginController implements Initializable {
     @FXML
     private PasswordField pf_pwd;
 
-    @FXML
-    private Button b_confirm;
-
-    private LoginModel model=new LoginModel();
+    final private LoginModel model=new LoginModel();
 
     private Stage stage;
 

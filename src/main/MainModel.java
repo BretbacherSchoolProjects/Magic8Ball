@@ -1,15 +1,14 @@
 package main;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
 public class MainModel {
-    private ArrayList<String> pos_answers=new ArrayList<>();
-    private ArrayList<String> neut_answers=new ArrayList<>();
-    private ArrayList<String> neg_answers=new ArrayList<>();
-    private ArrayList<String> answers=new ArrayList<>();
+    final private ArrayList<String> pos_answers=new ArrayList<>();
+    final private ArrayList<String> neut_answers=new ArrayList<>();
+    final private ArrayList<String> neg_answers=new ArrayList<>();
+    final private ArrayList<String> answers=new ArrayList<>();
 
 
     public MainModel(){
